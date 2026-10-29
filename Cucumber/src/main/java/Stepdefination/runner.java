@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="CucumberFeature" ,glue={"Stepdefination"})
+@CucumberOptions(features="CucumberFeature/swaglab_login.feature" ,glue={"Stepdefination"})
 
 
 public class runner {
